@@ -13,14 +13,14 @@ from linebot.models import (
 
 app = Flask(__name__)
 
-lineaccesstoken = '314a6dc14b6f028ca89803ce048fa8c1'
+lineaccesstoken =''
 line_bot_api = LineBotApi(lineaccesstoken)
 handler = WebhookHandler('your-channel-secret')
 investor = Investor(
-    app_id="UMDQfX4OjSGxTPqa",
-    app_secret="BIhomc1bJN4XqCOyIW+OgVK9SqK4WwSJrhKqQjnGORA=",
-    broker_id="SANDBOX",
-    app_code="SANDBOX",
+    app_id="",
+    app_secret="",
+    broker_id=""
+    app_code="",
     is_auto_queue=False)
 equity = investor.Equity(account_no="settrade-E")
 realtime = investor.RealtimeDataConnection()
