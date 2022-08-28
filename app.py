@@ -21,7 +21,6 @@ investor = Investor(
     app_secret="BIhomc1bJN4XqCOyIW+OgVK9SqK4WwSJrhKqQjnGORA",
     broker_id="SANDBOX",
     app_code="SANDBOX",
-    pin="000000",
     is_auto_queue=False )
 equity = investor.Equity(account_no="lamphu-E")
 realtime = investor.RealtimeDataConnection()
