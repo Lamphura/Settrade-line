@@ -13,16 +13,16 @@ from linebot.models import (
 
 app = Flask(__name__)
 
-lineaccesstoken = 'your-line-access-token'
+lineaccesstoken = 'g3PgXzHxpK4ftUNiS4owBLoCfYd+QqQO5Tu8Ne1nuadrHOUDWRyDg2vtrtv0NcwTVODlumGnQg4d7Z9bbTnWNopm+qG4W1sQ4lak8UImYc8lLAljuO8AY5OIv2ZMuvRzNxuWPVsoUWrcV4rqdSU65wdB04t89/1O/w1cDnyilFU='
 line_bot_api = LineBotApi(lineaccesstoken)
 handler = WebhookHandler('your-channel-secret')
 investor = Investor(
-    app_id="your-app-id",
-    app_secret="your-app-secret",
-    broker_id="xxx",
-    app_code="xxx",
+    app_id="MDQfX4OjSGxTPqa",
+    app_secret="BIhomc1bJN4XqCOyIW+OgVK9SqK4WwSJrhKqQjnGORA",
+    broker_id="SANDBOX",
+    app_code="SANDBOX",
     is_auto_queue=False)
-equity = investor.Equity(account_no="your-account-no")
+equity = investor.Equity(account_no="lamphu-E")
 realtime = investor.RealtimeDataConnection()
 
 @app.route('/webhook', methods=['POST'])
