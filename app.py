@@ -25,13 +25,13 @@ from linebot.models import (
 #app_secret = "AJhH8aeqRoyJ2fxp4xGEpKxw6b5fAEgA9VWfSU3Kru1f"
 #app_code = "SANDBOX"
 #broker_id = "SANDBOX"
-app_id = os.environ['STT-OPENAPI-AUTH-APP-ID'] 
-app_secret = os.environ['STT-OPENAPI-AUTH-APP-SECRET'] 
-app_code = os.environ['STT-OPENAPI-AUTH-APP-CODE'] 
-broker_id = os.environ['STT-OPENAPI-AUTH-BROKER-ID'] 
+app_id = os.environ['2i7hU4tT5RG4Lt0b'] 
+app_secret = os.environ['AJhH8aeqRoyJ2fxp4xGEpKxw6b5fAEgA9VWfSU3Kru1f'] 
+app_code = os.environ['SANDBOX'] 
+broker_id = os.environ['SANDBOX'] 
 is_auto_queue = False
-USER_BOT = os.environ['USER_BOT'] 
-BOT_NAME = os.environ['BOT_NAME'] 
+USER_BOT = os.environ['Teerasak'] 
+BOT_NAME = os.environ['settrade sandbox'] 
 #settrade.openapi.Investor(app_id, app_secret, broker_id, app_code, is_auto_queue)
 
 sandbox_balance = 0
@@ -51,7 +51,7 @@ time.sleep(0.25)
 
 @app.route("/")
 def hello_world():
-    return BOT_NAME + "God Trader X48 It's Here !!"
+    return BOT_NAME + "settrade sandbox"
 
 account_info = equity.get_account_info()
 print(account_info)
