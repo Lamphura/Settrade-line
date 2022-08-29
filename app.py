@@ -43,10 +43,9 @@ line_bot_api = LineBotApi(lineaccesstoken)
 handler = WebhookHandler('314a6dc14b6f028ca89803ce048fa8c1')
 investor = Investor(app_id= app_id ,app_secret = app_secret, app_code = app_code, broker_id = broker_id, is_auto_queue = is_auto_queue)
 realtime = investor.RealtimeDataConnection()
-equity = investor.Equity(account_no="lamphu-E") #For Original Teerasak
+equity = investor.Equity(account_no="8300846") #For Original Teerasak
 account_info = equity.get_account_info()
-deri = investor.Derivatives(account_no="lamphu-D")
-account_info_deri = deri.get_account_info()
+
 
 time.sleep(0.25)
 
