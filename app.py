@@ -21,8 +21,8 @@ from linebot.models import (
 )
 
 #[STT-OPENAPI-AUTH]
-#app_id = "MDQfX4OjSGxTPqa"
-#app_secret = "BIhomc1bJN4XqCOyIW+OgVK9SqK4WwSJrhKqQjnGORA"
+#app_id = "2i7hU4tT5RG4Lt0b"
+#app_secret = "AJhH8aeqRoyJ2fxp4xGEpKxw6b5fAEgA9VWfSU3Kru1f"
 #app_code = "SANDBOX"
 #broker_id = "SANDBOX"
 app_id = os.environ['STT-OPENAPI-AUTH-APP-ID'] 
