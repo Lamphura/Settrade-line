@@ -25,14 +25,15 @@ from linebot.models import (
 #app_secret = "AJhH8aeqRoyJ2fxp4xGEpKxw6b5fAEgA9VWfSU3Kru1f"
 #app_code = "SANDBOX"
 #broker_id = "SANDBOX"
-app_id =str( os.environ['2i7hU4tT5RG4Lt0b'] )
-app_secret = str(os.environ['AJhH8aeqRoyJ2fxp4xGEpKxw6b5fAEgA9VWfSU3Kru1f'] )
-app_code = str(os.environ['SANDBOX'] )
-broker_id = str(os.environ['SANDBOX'] )
+app_id ="2i7hU4tT5RG4Lt0b"
+app_secret = "AJhH8aeqRoyJ2fxp4xGEpKxw6b5fAEgA9VWfSU3Kru1f"
+app_code = "SANDBOX" 
+broker_id = "SANDBOX"
 is_auto_queue = False
-USER_BOT =str(os.environ['Teerasak'] )
-BOT_NAME = str(os.environ['settrade '] )
-#settrade.openapi.Investor(app_id, app_secret, broker_id, app_code, is_auto_queue)
+USER_BOT ="Teerasak"
+BOT_NAME ="settrade"
+pin="000000"
+#settrade.openapi.Investor(app_id, app_secret, broker_id,pin, app_code, is_auto_queue)
 
 sandbox_balance = 0
 
