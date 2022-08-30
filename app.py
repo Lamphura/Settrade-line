@@ -30,8 +30,8 @@ app_secret = str(os.environ['AJhH8aeqRoyJ2fxp4xGEpKxw6b5fAEgA9VWfSU3Kru1f'] )
 app_code = str(os.environ['SANDBOX'] )
 broker_id = str(os.environ['SANDBOX'] )
 is_auto_queue = False
-USER_BOT =str( os.environ['Teerasak'] 
-BOT_NAME = str(os.environ['settrade sandbox'] 
+USER_BOT =str(os.environ['Teerasak'] 
+BOT_NAME = str(os.environ['settrade '] )
 #settrade.openapi.Investor(app_id, app_secret, broker_id, app_code, is_auto_queue)
 
 sandbox_balance = 0
@@ -50,7 +50,7 @@ account_info_deri = deri.get_account_info()
 time.sleep(0.25)
 @app.route("/")
 def hello_world():
-    return BOT_NAME + "settrade sandbox"
+    return BOT_NAME + "settrade"
 
 account_info = equity.get_account_info()
 print(account_info)
