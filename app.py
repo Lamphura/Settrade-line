@@ -28,7 +28,7 @@ from linebot.models import (
 app_id =str( os.environ['2i7hU4tT5RG4Lt0b'] )
 app_secret = str(os.environ['AJhH8aeqRoyJ2fxp4xGEpKxw6b5fAEgA9VWfSU3Kru1f'] )
 app_code = str(os.environ['SANDBOX'] )
-broker_id = str(os.(environ['SANDBOX'] )
+broker_id = str(os.environ['SANDBOX'] )
 is_auto_queue = False
 USER_BOT =str( os.environ['Teerasak'] 
 BOT_NAME = str(os.environ['settrade sandbox'] 
