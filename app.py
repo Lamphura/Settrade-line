@@ -33,7 +33,7 @@ is_auto_queue = False
 USER_BOT ="Teerasak"
 BOT_NAME ="settrade"
 pin="000000"
-#settrade.openapi.Investor(app_id, app_secret, broker_id,pin, app_code,pin, is_auto_queue)
+#settrade.openapi.Investor(app_id, app_secret, broker_id,app_code,pin, is_auto_queue)
 
 sandbox_balance = 0
 
