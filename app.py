@@ -45,10 +45,9 @@ investor = Investor(app_id= app_id ,app_secret = app_secret, app_code = app_code
 realtime = investor.RealtimeDataConnection()
 equity = investor.Equity(account_no="lamphu-E") #For Original Teerasak
 account_info = equity.get_account_info()
-
-
+deri = investor.Derivatives(account_no="lamphu-D")
+account_info_deri = deri.get_account_info()
 time.sleep(0.25)
-
 @app.route("/")
 def hello_world():
     return BOT_NAME + "settrade sandbox"
