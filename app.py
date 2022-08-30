@@ -30,7 +30,7 @@ app_secret = str(os.environ['AJhH8aeqRoyJ2fxp4xGEpKxw6b5fAEgA9VWfSU3Kru1f'] )
 app_code = str(os.environ['SANDBOX'] )
 broker_id = str(os.environ['SANDBOX'] )
 is_auto_queue = False
-USER_BOT =str(os.environ['Teerasak'] 
+USER_BOT =str(os.environ['Teerasak'] )
 BOT_NAME = str(os.environ['settrade '] )
 #settrade.openapi.Investor(app_id, app_secret, broker_id, app_code, is_auto_queue)
 
